@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 900px)">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+
+  <section class="landing">
+
+    <div class="landing__left">
+
+      <header class="landing__logo">
+        <img src="images/logo.svg" alt="">
+      </header>
+
+      <div class="landing__hero--mobile">
+        <img src="/images/hero-mobile.jpg" alt="">
+      </div>
+
+      <div class="landing__copy">
+
+        <h1 class="landing__copy--title">
+          <span>We're</span><br> coming <br> soon
+        </h1>
+
+        <p class="landing__copy--paragraph">
+          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+
+      </div>
+
+      <form action="" class="email" id="email">
+
+        <div class="landing__email--container">
+
+          <div class="input-email">
+
+            <input type="email" name="" id="email-address" class="email-address" placeholder="Email Address" required>
+            <button type="submit" id="email-button" class="landing__email--button"><img src="images/icon-arrow.svg" alt=""></button>
+            <img src="images/icon-error.svg" class="icon-error" alt="">
+
+          </div>
+
+          <p class="message-error">Please provide a valid email</p>
+
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="landing__right">
+
+        <img src="/images/hero-desktop.jpg" alt="">
+    
+    </div>
+
+  </section>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
